@@ -7,13 +7,13 @@ var reactions = [
     { description: " Qual das ferramentas a seguir é usada para cortar sequências específicas de DNA em tecnologia recombinante?", name: "Endonuclease de restrição" },
     { description: "Em proteínas, as ligações de hidrogênio que estabilizam a estrutura secundária (alfa-hélice ou beta-pregueada) ocorrem entre:", name: "Átomos da cadeia principal do polipeptídeo" },
     { description: "Qual base nitrogenada é encontrada apenas no RNA?", name: "Uracila" },
-    { description: "", name: "Facilitar o pareamento entre o RNAt e o RNAm e catalisar a formação de ligações peptídicas." },
+    { description: "Em organismos eucarióticos, a transcrição ocorre em qual local da célula?", name: "Núcleo" },
     { description: "Durante a tradução, qual tipo de RNA transporta aminoácidos para o ribossomo?", name: "RNA transportador " },
     { description: "O DNA é transcrito para RNA pela ação de qual enzima?", name: "RNA polimerase" },
     { description: "Qual mecanismo é usado para reparar danos na fita dupla do DNA?", name: "Recombinação homóloga" },
     { description: "A técnica de eletroforese em gel é usada para ?", name: "Separar moléculas de DNA ou RNA" },
-    { description: "A técnica de eletroforese em gel é usada paraNa técnica de Western Blot, qual molécula é analisada??", name: "edição de genomas precisa" },
-    { description: "Qual a técnica de CRISPR-Cas9?", name: "Núcleo" }
+    { description: "Na técnica de Western Blot, qual molécula é analisada?", name: "Proteína" },
+    { description: "Qual a técnica de CRISPR-Cas9?", name: "edição de genomas precisa" }
 ];
 var currentReactions;
 var currentReaction;
