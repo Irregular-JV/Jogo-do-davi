@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biohackers</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="start">
+        <h1>Bem-vindo ao Jogo Biohackers</h1>
+        <button onclick="startGame()">Iniciar jogo</button>
+    </div>
+    <div id="game">
+        <h1>Jogo Biohackers</h1>
+        <div id="scoreboard">
+            <div class="pontos">Pontuação: <span id="score">0</span></div>
+            <div id="timer">Tempo restante: <span id="time">15</span></div>
+        </div>
+        <div id="question"></div>
+        <div id="choices"></div>
+        <div>
+            <button id="checkButton" onclick="checkAnswer()">Verificar resposta</button>
+            <button onclick="resetGame()">Resetar jogo</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <div id="endgame">
+        <h1 id="endgameTitle"></h1>
+        <p id="endgameScore"></p>
+        <button onclick="resetGame()">Jogar novamente</button>
+    </div>
+    
+   <script src="scricpt.js"></script>
+</body>
+</html>
+
