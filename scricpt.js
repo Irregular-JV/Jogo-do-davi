@@ -1,23 +1,24 @@
 
 var reactions = [
-    { description: "Qual é o principal ponto de controle da expressão gênica em células eucarióticas?", name: "Transcrição" },
-    { description: "Qual é a função dos fatores de transcrição?", name: "Ajudar a RNA polimerase a iniciar a transcrição" },
-    { description: "Qual é o papel da enzima RNA polimerase, sabendo que essa é uma peça central na expressão gênica?", name: "Transcrever RNA" },
-    { description: "Qual base nitrogenada está presente no RNA, mas não no DNA?", name: "Uracila" },
-    { description: "Qual tipo de RNA carrega os aminoácidos para os ribossomos durante a tradução? ", name: "RNA transportador (tRNA)" },
-    { description: "O que é uma mutação no DNA e como ela pode afetar uma proteína?", name: "Uma mutação é uma alteração na sequência de DNA, que pode modificar a função da proteína." },
-    { description: "Durante o processo de transcrição, qual das alternativas abaixo descreve corretamente o papel da RNA polimerase?", name: "Separar as fitas de DNA e sintetizar uma molécula de RNA complementar à fita molde." },
-    { description: "Qual é a função principal do ribossomo durante o processo de tradução?", name: "Facilitar o pareamento entre o RNAt e o RNAm e catalisar a formação de ligações peptídicas." },
-    { description: "O que é a técnica de CRISPR-Cas9 e para que é utilizada?", name: "Uma técnica de edição genômica que permite modificar o DNA de forma precisa." },
-    { description: "Qual é a principal diferença funcional entre o DNA e o RNA nos organismos vivos?", name: "O DNA armazena as informações genéticas, enquanto o RNA está envolvido na síntese de proteínas." },
-     // Reações existentes...
-    { description: "Na síntese de proteínas, os ribossomos têm como função:", name: "Sintetizar proteínas" },
-    { description: "Qual é o papel dos mecanismos de reparo do DNA nas células", name: "Eles corrigem erros e danos no DNA para evitar mutações prejudiciais." },
+    { description: "Qual dos seguintes componentes NÃO está presente em um nucleotídeo?", name: "Ácido graxo" },
+    { description: "O processo de síntese de proteínas ocorre em qual organela celular?", name: "Ribossomo" },
+    { description: "Durante a replicação do DNA, qual enzima é responsável por separar as fitas da dupla hélice?", name: "Helicase" },
+    { description: "Qual tipo de mutação ocorre quando um único nucleotídeo é substituído por outro?", name: "Substituição de bases" },
+    { description: " Qual das ferramentas a seguir é usada para cortar sequências específicas de DNA em tecnologia recombinante?", name: "Endonuclease de restrição" },
+    { description: "Em proteínas, as ligações de hidrogênio que estabilizam a estrutura secundária (alfa-hélice ou beta-pregueada) ocorrem entre:", name: "Átomos da cadeia principal do polipeptídeo" },
+    { description: "Qual base nitrogenada é encontrada apenas no RNA?", name: "Uracila" },
+    { description: "", name: "Facilitar o pareamento entre o RNAt e o RNAm e catalisar a formação de ligações peptídicas." },
+    { description: "Durante a tradução, qual tipo de RNA transporta aminoácidos para o ribossomo?", name: "RNA transportador " },
+    { description: "O DNA é transcrito para RNA pela ação de qual enzima?", name: "RNA polimerase" },
+    { description: "Qual mecanismo é usado para reparar danos na fita dupla do DNA?", name: "Recombinação homóloga" },
+    { description: "A técnica de eletroforese em gel é usada para ?", name: "Separar moléculas de DNA ou RNA" },
+    { description: "A técnica de eletroforese em gel é usada paraNa técnica de Western Blot, qual molécula é analisada??", name: "edição de genomas precisa" },
+    { description: "Qual a técnica de CRISPR-Cas9?", name: "Núcleo" }
 ];
 var currentReactions;
 var currentReaction;
 var score = 0;
-var totalQuestions = 12;
+var totalQuestions = 14;
 var questionCount = 0;
 var timer;
 var answered = false;
